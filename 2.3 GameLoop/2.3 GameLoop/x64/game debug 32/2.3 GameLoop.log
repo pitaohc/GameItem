@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\x64\game debug 32\2.3 GameLoop.exe : fatal error LNK1120: 1 个无法解析的外部命令

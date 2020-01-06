@@ -1,0 +1,7 @@
+﻿  winmain.cpp
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\2.3 GameLoop\winmain.cpp(31,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\2.3 GameLoop\winmain.cpp(58,6): warning C4101: “hdc”: 未引用的局部变量
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\2.3 GameLoop\winmain.cpp(57,14): warning C4101: “ps”: 未引用的局部变量
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\2.3 GameLoop\winmain.cpp(56,7): warning C4101: “drawRect”: 未引用的局部变量
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\2.3 GameLoop\winmain.cpp(146,12): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+  2.3 GameLoop.vcxproj -> D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\2.3 GameLoop\x64\Debug\2.3 GameLoop.exe

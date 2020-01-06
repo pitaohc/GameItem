@@ -1,0 +1,4 @@
+﻿  windows.cpp
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\3.1 First Step for D3D\3.1 First Step for D3D\windows.cpp(74,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\3.1 First Step for D3D\3.1 First Step for D3D\windows.cpp(148,12): warning C4244: “return”: 从“WPARAM”转换到“int”，可能丢失数据
+  3.1 First Step for D3D.vcxproj -> D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\3.1 First Step for D3D\x64\Debug\3.1 First Step for D3D.exe

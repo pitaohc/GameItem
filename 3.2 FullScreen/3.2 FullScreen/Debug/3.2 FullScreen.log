@@ -1,0 +1,3 @@
+﻿  windows.cpp
+D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\3.2 FullScreen\3.2 FullScreen\windows.cpp(63,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  3.2 FullScreen.vcxproj -> D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\3.2 FullScreen\Debug\3.2 FullScreen.exe
