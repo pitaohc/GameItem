@@ -30,5 +30,8 @@
 #*.exe
 *.out
 *.app
+*.ikl
+*.pdb
+*.tlog
 #solution files
 *.opendb
