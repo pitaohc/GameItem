@@ -1,6 +1,8 @@
 #include"MyDirectX.h"
 #include"resource.h"
 using namespace std;
+fstream logfile("log.txt", ios::app);
+HWND window;
 //Windows event handler
 LRESULT CALLBACK WinProc(HWND window, UINT message, WPARAM wParam, LPARAM lParam)
 {
@@ -46,7 +48,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	ShowWindow(window, nCmdShow);
 	UpdateWindow(window);
 
-	if (!Game_Init()) return 1;
+	if (!Game_Init(window)) return 1;
 
 	MSG msg;
 	while (!gameover)
@@ -60,20 +62,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	}
 	Game_End();
 	return msg.wParam;
-}
-
-
-
-bool Game_Init()
-{
-	return false;
-}
-
-void Game_Run()
-{
-}
-
-void Game_End()
-{
 }
 

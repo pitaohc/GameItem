@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LogInfo.cpp" />
     <ClCompile Include="MyDirectX.cpp" />
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="windows.cpp" />

@@ -55,3 +55,30 @@ int Mouse_X()
 {
 	return 0;
 }
+
+//Return mouse Y movement
+int Mouse_Y()
+{
+	return 0;
+}
+//Return mouse button state
+int Mouse_Button(int button)
+{
+	return 0;
+}
+//Return key press state
+int Key_Down(int key)
+{
+	return 0;
+}
+//Return true if controller is plugged in
+bool XInput_Controller_Found()
+{
+	return false;
+}
+//Vibrates the controller
+void XInput_Vibrate(int contNum, int amount)
+{
+
+}
+

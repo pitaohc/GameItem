@@ -32,17 +32,17 @@ using namespace std;
 #pragma comment(lib,"xinput.lib")
 
 //Global variable
-HWND window;
+extern HWND window;
 extern const string AppTitle;
 extern int SCREENW;
 extern int SCREENH;
 extern bool gameover;
-extern bool windowed = true;
+extern bool fullscreen_flag;
 //Direct3D objects
 extern LPDIRECT3D9 d3d;
 extern LPDIRECT3DDEVICE9 d3ddev;
 extern LPDIRECT3DSURFACE9 backbuffer;
-fstream logfile("log.txt", ios::app);
+extern fstream logfile;
 //Direct3D functions
 bool Direct3D_Init(HWND hWnd, int width, int height, bool fullscreen);
 void Direct3D_Shutdown();

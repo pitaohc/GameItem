@@ -24,6 +24,9 @@
     <ClCompile Include="MyGame.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LogInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyDirectX.h">
