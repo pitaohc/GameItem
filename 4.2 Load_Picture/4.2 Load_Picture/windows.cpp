@@ -50,8 +50,8 @@ bool Game_Init()
 	//create pointer to the back buffer
 	d3ddev->GetBackBuffer(0, 0, D3DBACKBUFFER_TYPE_MONO, &backbuffer);
 	HRESULT result = d3ddev->CreateOffscreenPlainSurface(
-		100,
-		100,
+		SCREENW,//»º³åÇø¿í
+		SCREENH,//»º³åÇø¸ß
 		D3DFMT_X8R8G8B8,
 		D3DPOOL_DEFAULT,
 		&surface,

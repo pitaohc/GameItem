@@ -20,9 +20,9 @@ using namespace std;
 //global variable
 HWND window;										//Windows窗口句柄
 const string AppTitle = "4.1 Surface and Bitmap";	//程序标题
-const string PictureFile = "pic.png";
-int SCREENW = 1024;			//窗口宽
-int SCREENH = 768;			//窗口高
+const string PictureFile = "photo.png";
+int SCREENW = 1920;			//窗口宽
+int SCREENH = 1080;			//窗口高
 LPDIRECT3D9 d3d = nullptr;			//D3D指针
 LPDIRECT3DDEVICE9 d3ddev = nullptr;	//D3D设备指针
 bool gameover = false;				//游戏结束表示
