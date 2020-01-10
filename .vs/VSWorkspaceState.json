@@ -3,8 +3,9 @@
     "",
     "\\2.1 Windows",
     "\\4.2 Load_Picture",
-    "\\GameStandard"
+    "\\GameStandard",
+    "\\GameStandard\\GameStandard"
   ],
-  "SelectedNode": "\\GameStandard\\GameStandard.sln",
+  "SelectedNode": "\\笔记.md",
   "PreviewInSolutionExplorer": false
 }
