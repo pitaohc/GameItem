@@ -1,3 +1,0 @@
-﻿  windows.cpp
-D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\4.2 Load_Picture\4.2 Load_Picture\windows.cpp(47,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  4.2 Load_Picture.vcxproj -> D:\DATA\Projects\Visual Studio Projects\MyProjects\GameItem\4.2 Load_Picture\Debug\4.2 Load_Picture.exe

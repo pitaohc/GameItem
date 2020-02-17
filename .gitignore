@@ -25,6 +25,10 @@
 *.la
 *.a
 *.lib
+# solution ini folders
+Debug/
+.vs/
+
 
 # Executables
 #*.exe
@@ -34,4 +38,4 @@
 *.pdb
 *.tlog
 #solution files
-*.opendb
+*.open zdb
